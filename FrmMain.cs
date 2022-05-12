@@ -51,5 +51,10 @@ namespace HuraMusic
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void NoMute_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
