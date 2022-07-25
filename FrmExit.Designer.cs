@@ -110,6 +110,7 @@ namespace HuraMusic
             this.Name = "FrmExit";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmExit";
+            this.Load += new System.EventHandler(this.FrmExit_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -26,5 +26,10 @@ namespace HuraMusic
         {
             Application.Exit();
         }
+
+        private void FrmExit_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

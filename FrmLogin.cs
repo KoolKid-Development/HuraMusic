@@ -62,7 +62,7 @@ namespace HuraMusic
                     MessageBox.Show("You are now logged in!");
                     usernames = username;
                     accountname = txtUsername.Text;
-                    FrmMain succes = new FrmMain();
+                    FrmHome succes = new FrmHome();
                     succes.Show();
                     this.Hide();
                 }
@@ -76,9 +76,12 @@ namespace HuraMusic
 
         private void label5_Click(object sender, EventArgs e)
         {
-            FrmRegister r = new FrmRegister();
-            r.Show();
-            this.Hide();
+            
+        }
+
+        private void FrmLogin_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
